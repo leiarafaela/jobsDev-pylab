@@ -1,0 +1,102 @@
+.wrapper {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.box {
+    
+    width: 80vw;
+    background: #fff;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.3);
+    border-radius: 10px;
+}
+
+
+.titulo{
+    display: inline;
+    font-family: sans-serif;
+}
+
+.btn-nova-empresa{
+    float: right;
+    text-decoration: none;
+    color: white;
+    background-color: #0D3878;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn-nova-empresa:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #0D3878;
+}
+
+.btn-excluir:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #0D3878;
+}
+
+.header-box{
+
+    padding: 30px;
+
+}
+
+.borda-box{
+    border-top: 1px solid black;
+}
+
+.body-box{
+    padding: 30px;
+}
+
+.btn-orange{
+
+    background-color: #ED8554;
+    color: white;
+}
+
+
+.tabela{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tabela-linha{
+    background-color: #EDE6E6;
+}
+
+.btn-excluir{
+    text-decoration: none;
+    color: white;
+    background-color: #0D3878;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.teste{
+    text-decoration: none;
+    color: black;
+}
+
+.form-control:focus {
+    border-color: #cccccc;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+
+.form-select:focus {
+    border-color: #cccccc;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
